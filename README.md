@@ -1,7 +1,7 @@
 # Calculator
 A calculator program in Java that evaluates expressions in a very simple integer expression language. The program takes an input on the command line, computes the result, and prints it to the console
 
-# Requirments
+# Requirements
 * Java 5+
 * Maven 3+
 
@@ -36,6 +36,10 @@ For simple addition, with log level INFO (default) to stdout (default):
 
 For a more complex expression, with log level DEBUG to a log.txt file in the current working directory:
 * ```java -jar target/calculator-1.0.jar -e "let(a, 5, let(b, mult(a, 10), add(b, a)))" -l DEBUG -f log.txt```
+
+# Travis-CI Integration
+Travis-CI integration builds are automatically triggered by commits. You can see a history of the builds at:
+https://travis-ci.org/mflintoff/calculator
 
 
 
